@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.btn {
+    background-color: #4CAF4F;
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+.btn2 {
+  background-color: #fff;
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+.btn3 {
+  background-color: #388E3B;
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.btn:hover {
+  background-color: #66BB69;
+}
+.btn2:hover {
+  background-color: #66BB69;
+}
+.btn3:hover {
+  background-color: #2E7D31;
+}
+
+@layer base {
+  body {
+      @apply font-secondary flex flex-col  text-lg leading-8 text-white overflow-x-hidden;
+    }
+    .h1 {
+      @apply font-primary font-semibold text-[32px] mb-6 tracking-[10%] uppercase;
+    }
+    .h2 {
+      @apply font-primary font-semibold lg:text-[54px] text-[24px] mb-6 leading-[76px];
+    }
+    .h3 {
+      @apply font-primary font-semibold text-[18px] lg:text-[18px] mb-6 leading-[46px] lg:tracking-wider;
+    }
+    .h4 {
+      @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    }
+    .btn {
+      @apply rounded-md font-primary font-medium;
+    }
+    .btn2 {
+      @apply border border-green-400 rounded-md font-primary font-medium;
+    }
+    .btn3 {
+      @apply rounded-sm font-primary font-medium opacity-90 border border-[#388E3B] border-x-4;
+    }
+    .btn-sm {
+      @apply h-[38px] px-6 text-sm tracking-normal;
+    }
+    .btn-lg {
+      @apply h-[46px] px-10 text-base tracking-normal;
+    }
+    .text-gradient {
+      @apply bg-gradient-to-r text-transparent bg-clip-text from-[#F86F03] to-[#525FE1] font-bold font-secondary hover:from-[#da439d] hover:to-[#FFA41B];
+    }
+    .section {
+      @apply py-8 lg:py-[36rem]  lg:max-h-screen flex items-center scroll-mt-[4rem];
+    }
+}
