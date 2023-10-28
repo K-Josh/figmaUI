@@ -15,7 +15,7 @@ const AirPods = () => {
           variants={fadeIn('left', 0.4)}
           initial="hidden"
           whileInView={"show"}
-          onViewportEnter={{once: false, amount: 0.6}}
+          viewport={{once: false, amount: 0.6}}
           >
           <img 
             src={Image4}
@@ -29,7 +29,7 @@ const AirPods = () => {
          <motion.div
             variants={fadeIn('right', 0.4)}
             initial="hidden"
-            whileInView={"show"}
+            viewport={"show"}
             onViewportEnter={{once:false, amount: 0.3}}
           >
           <p className="text-black/75 lg:text-[17px] lg:w-[42rem]">
@@ -48,7 +48,7 @@ const AirPods = () => {
               variants={fadeIn('left', 0.4)}
              initial="hidden"
              whileInView={"show"}
-             onViewportEnter={{once: false, amount: 0.6}}
+             viewport={{once: false, amount: 0.6}}
              src={Image5}
               className="lg:w-[24rem] mb-2"
              />

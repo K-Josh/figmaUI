@@ -22,7 +22,7 @@ const Navbar = () => {
                className="absolute right-8 top-1 cursor-pointer lg:hidden ">
                 {open ? <TiLockClosedOutline className="text-3xl lg:hidden text-green-600"/> :<TfiMenuAlt className="text-3xl lg:hidden text-green-600"/>}
               </div>
-             <div className={`lg:flex-row flex flex-col bg-white lg:mx-[12rem] w-full lg:static lg:space-x-4 transition-all duration-500 ease-in ${open ? 'mx-[1rem] lg:mx-0' : '-my-[200rem] lg:my-0 '} pl-6`}>  
+             <div className={`lg:flex-row flex flex-col bg-white lg:mx-[12rem] w-full lg:static lg:space-x-4 transition-all duration-500 ease-in ${open ? 'mx-[1rem] lg:mx-0' : 'hidden lg:my-0 '} pl-6`}>  
             <Link 
               to="banner"
               activeClass='active'

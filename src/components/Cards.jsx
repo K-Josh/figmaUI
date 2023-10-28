@@ -22,12 +22,12 @@ const Cards = () => {
          variants={fadeIn('left', 0.3)}
          initial="hidden"
          whileInView={"show"}
-         onViewportEnter={{once: false, amount: 0.6}}
+         viewport={{once: false, amount: 0.6}}
         className="flex flex-col group ">
         <div className="">
           <img src={Image7} className="w-[18rem] lg:w-[24rem] cursor-pointer lg:group-hover:scale-110 transition-all duration-500 "/>
         </div>
-         <div className="bg-white/80 w-[18rem] shadow-lg rounded-md cursor-pointer -m-[6rem] mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-20">
+         <div className="bg-white/80 w-[18rem] shadow-lg rounded-md cursor-pointer mx-[0rem] lg:mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-2">
            <h4 className="capitalize font-semibold text-center text-black p-4 ">creating streamlined <br/>safeguarding processes with <br/>oneRed</h4>
            <Link className="text-green-600 flex items-center justify-center">
             ReadMore
@@ -40,12 +40,12 @@ const Cards = () => {
           variants={fadeIn('left', 0.4)}
           initial="hidden"
           whileInView={"show"}
-          onViewportEnter={{once: false, amount: 0.6}}
+          viewport={{once: false, amount: 0.6}}
          className="flex flex-col group">
          <div className="">
           <img src={Image6} className="w-[18rem] lg:w-[24rem] cursor-pointer lg:group-hover:scale-110 transition-all duration-500 z-40"/>
         </div>
-         <div className="bg-white/80 w-[18rem] lg:w-[18rem] shadow-lg rounded-md cursor-pointer -m-[6rem] mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-20">
+         <div className="bg-white/80 w-[18rem] lg:w-[18rem] shadow-lg rounded-md cursor-pointer mx-[0rem] lg:mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-2">
            <h4 className="capitalize font-semibold text-center text-black p-4 ">what are your safeguarding <br/>responsibilities and how can <br/>you manage them</h4>
            <Link className="text-green-600 flex items-center justify-center">
             ReadMore
@@ -58,13 +58,13 @@ const Cards = () => {
           variants={fadeIn('left', 0.4)}
           initial="hidden"
           whileInView={"show"}
-          onViewportEnter={{once: false, amount: 0.6}}
+          viewport={{once: false, amount: 0.6}}
          className="flex flex-col group">
          <div className="">
           <img 
            src={Image8} className="w-[18rem] lg:w-[24rem] cursor-pointer lg:group-hover:scale-110 transition-all duration-500 z-40"/>
         </div>
-         <div className="bg-white/80 w-[18rem] shadow-lg rounded-md cursor-pointer -m-[6rem] mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-20">
+         <div className="bg-white/80 w-[18rem] shadow-lg rounded-md cursor-pointer mx-[0rem] lg:mx-11 -my-7 lg:group-hover:scale-110 transition-ease duration-700 lg:hover:translate-x-0 hover:translate-x-2">
            <h4 className="capitalize font-semibold text-center text-black p-4 ">revamping the membership <br/>model with triathon <br/>Austria</h4>
            <Link className="text-green-600 flex items-center justify-center">
             ReadMore
