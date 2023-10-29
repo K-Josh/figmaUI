@@ -1,4 +1,4 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
+[build]
+publish = "build/"
+functions = "./functions/"
 status = 200
