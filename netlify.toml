@@ -1,4 +1,4 @@
 [build]
 publish = "build/"
-functions = "./functions/"
+functions = './functions/'
 status = 200
